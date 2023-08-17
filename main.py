@@ -28,7 +28,7 @@ def classify_message(model, message):
 # Writing a function for the landing page with a fastapi decorator            
 @app.get('/')
 def get_root():
-	return {'message': 'Welcome to the spam detection API'}
+	return {'message': "Welcome to Schnueffelchen's the spam detection API"}
 
 # Writing a function for the prediction with a fastapi decorator that fetches the message  
 @app.get('/spam_detection_path/{message}')
